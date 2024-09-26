@@ -96,7 +96,7 @@ apt-get remove --purge exim4 -y
 apt install ruby -y
 apt -y install wget curl
 gem install lolcat
-bash <(curl -Ls https://raw.githubusercontent.com/fnnetwork/BN-AIO-SCRIPT/main/Pythoninstall)
+bash <(curl -Ls https://raw.githubusercontent.com/fnnetwork/GTS-AIO-SCRIPT/main/Pythoninstall)
 apt install neofetch -y
 apt install bc -y
 apt install make -y
@@ -131,10 +131,10 @@ apt install libssl1.0-dev -y
 apt install dos2unix -y
 apt install resolvconf network-manager dnsutils bind9 -y
 apt -y install dropbear
-bash <(curl -Ls https://raw.githubusercontent.com/fnnetwork/BN-AIO-SCRIPT/main/dropbearconfig.sh)
-bash <(curl -Ls https://github.com/fnnetwork/BN-AIO-SCRIPT/raw/main/dropbear.sh)
-bash <(curl -Ls https://raw.githubusercontent.com/fnnetwork/BN-AIO-SCRIPT/main/sshconfig.sh)
-bash <(curl -Ls https://raw.githubusercontent.com/fnnetwork/BN-AIO-SCRIPT/main/dnsdisable.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/fnnetwork/GTS-AIO-SCRIPT/main/dropbearconfig.sh)
+bash <(curl -Ls https://github.com/fnnetwork/GTS-AIO-SCRIPT/raw/main/dropbear.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/fnnetwork/GTS-AIO-SCRIPT/main/sshconfig.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/fnnetwork/GTS-AIO-SCRIPT/main/dnsdisable.sh)
 systemctl restart NetworkManager
 curl ipinfo.io/org > /root/.isp
 curl ipinfo.io/city > /etc/xray/city
